@@ -18,7 +18,11 @@ description: Deploy Azure OpenAI with GPT-5-mini using one CLI command. Includes
 
 Rapidly deploy an Azure OpenAI instance with a GPT-5-mini model using a single CLI command, then connect to it from Python or TypeScript using [LangChain's `ChatOpenAI`](https://docs.langchain.com/oss/python/integrations/chat/azure_chat_openai) with the Azure [v1 API](https://learn.microsoft.com/azure/ai-foundry/openai/api-version-lifecycle) and the [Responses API](https://learn.microsoft.com/azure/ai-foundry/openai/how-to/responses).
 
-This starter is a LangChain-flavored port of [`azure-samples/azure-openai-starter`](https://github.com/Azure-Samples/azure-openai-starter). The infrastructure is the same; the client samples use LangChain instead of the raw OpenAI SDK.
+## Architecture Overview
+
+![Azure OpenAI Starter Kit Architecture](./images/langchainaoaistarterimage.png)
+
+*The Azure OpenAI Starter Kit provides Infrastructure as Code deployment with one-command setup and production-ready client examples for Python and TypeScript featuring secure EntraID authentication and the new Responses API optimized for GPT-5-mini.*
 
 ## Why LangChain?
 
