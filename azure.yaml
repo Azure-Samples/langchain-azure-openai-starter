@@ -1,0 +1,9 @@
+name: langchain-azure-openai-starter
+metadata:
+  template: langchain-azure-openai-starter@0.0.1-beta
+  description: Minimal Azure OpenAI GPT-5-mini deployment with LangChain Python and TypeScript samples using Azure Developer CLI
+
+workflows:
+  up:
+    - azd: provision
+      continueOnError: true

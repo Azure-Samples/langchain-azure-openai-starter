@@ -1,0 +1,29 @@
+{
+  "name": "langchain-azure-openai-starter-ts",
+  "version": "1.0.0",
+  "description": "TypeScript starter for Azure OpenAI GPT-5-mini using LangChain ChatOpenAI",
+  "main": "responses_example.js",
+  "scripts": {
+    "start": "tsx responses_example.ts",
+    "start:entra": "tsx responses_example_entra.ts",
+    "build": "tsc",
+    "dev": "tsx watch responses_example.ts"
+  },
+  "keywords": ["azure", "openai", "gpt-5-mini", "typescript", "langchain", "azd"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@azure/identity": "^4.0.0",
+    "@langchain/core": "^0.3.0",
+    "@langchain/openai": "^0.4.0",
+    "dotenv": "^17.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
