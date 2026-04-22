@@ -14,14 +14,15 @@ description: Deploy Azure OpenAI with GPT-5-mini using one CLI command. Includes
 -->
 # The LangChain Azure OpenAI Starter Kit
 
-**The fastest way to build LangChain apps on Azure OpenAI.**
+**The fastest way to build LangChain apps using Azure OpenAI.**
 
-Rapidly deploy an Azure OpenAI instance with a GPT-5-mini model using a single CLI command, then connect to it from Python or TypeScript using [LangChain's `ChatOpenAI`](https://python.langchain.com/docs/integrations/chat/openai/) with the Azure [v1 API](https://learn.microsoft.com/azure/ai-foundry/openai/api-version-lifecycle) and the [Responses API](https://learn.microsoft.com/azure/ai-foundry/openai/how-to/responses).
+Rapidly deploy an Azure OpenAI instance with a GPT-5-mini model using a single CLI command, then connect to it from Python or TypeScript using [LangChain's `ChatOpenAI`](https://docs.langchain.com/oss/python/integrations/chat/azure_chat_openai) with the Azure [v1 API](https://learn.microsoft.com/azure/ai-foundry/openai/api-version-lifecycle) and the [Responses API](https://learn.microsoft.com/azure/ai-foundry/openai/how-to/responses).
 
 This starter is a LangChain-flavored port of [`azure-samples/azure-openai-starter`](https://github.com/Azure-Samples/azure-openai-starter). The infrastructure is the same; the client samples use LangChain instead of the raw OpenAI SDK.
 
 ## Why LangChain?
 
+LangChain is a popular framework that makes it easy to build applications with LLMs. 
 - **One interface, many models.** With the Azure v1 API you can point `ChatOpenAI` at any model deployed in [Microsoft Foundry](https://learn.microsoft.com/azure/ai-foundry/) (OpenAI, Llama, DeepSeek, Mistral, Phi) by changing the deployment name.
 - **Drop-in agents and tools.** Add tool calling, structured output, memory, retrieval, and multi-step agents without rewriting auth or client code.
 - **First-class Azure auth.** Works out of the box with Entra ID / `DefaultAzureCredential`.
