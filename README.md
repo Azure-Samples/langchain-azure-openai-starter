@@ -67,6 +67,8 @@ export AZURE_OPENAI_ENDPOINT=$(azd env get-value 'AZURE_OPENAI_ENDPOINT')
 
 ```bash
 cd src/python
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 python responses_example_entra.py
 ```
@@ -90,6 +92,8 @@ export AZURE_OPENAI_API_KEY=$(azd env get-value 'AZURE_OPENAI_API_KEY')
 
 ```bash
 cd src/python
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 python responses_example.py
 ```
