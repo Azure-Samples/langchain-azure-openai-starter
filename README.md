@@ -1,4 +1,3 @@
-<!--
 ---
 page_type: sample
 languages:
@@ -11,7 +10,7 @@ urlFragment: langchain-azure-openai-starter
 name: The LangChain Azure OpenAI Starter Kit
 description: Deploy Azure OpenAI with GPT-5-mini using one CLI command. Includes LangChain ChatOpenAI examples for Python and TypeScript using the Responses API and Entra ID authentication.
 ---
--->
+
 # The LangChain Azure OpenAI Starter Kit
 
 **The fastest way to build LangChain apps using Azure OpenAI.**
